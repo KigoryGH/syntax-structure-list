@@ -8,4 +8,4 @@ a list showing you how different programming languages syntax works
 
 ### to start just click on the markdown files related to you're desired languages below
 
-[javascript.md]
+[javascript.md](https://github.com/KigoryGH/syntax-structure-list/blob/main/javascript.md)
