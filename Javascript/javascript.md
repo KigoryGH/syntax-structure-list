@@ -15,9 +15,8 @@ Number, String, Boolean, Undefined and Null. Now the rest are not really used bu
 Here is a table so you can understand better
 --
 
-| Data types | use    | description |
-| ---------- | ------ | ----------- |
-| String     | random | random      |
-| Number     | random | random      |
-| Boolean    | random | random      |
-| Undefined  | random | random      |
+| Data types | use                                                |
+| ---------- | -------------------------------------------------- |
+| String     | `console.log("quotes make a string")`              |
+| Number     | `console.log(10) // as the name says a number`     |
+| Null       | `let something = null // now something is nothing` |
