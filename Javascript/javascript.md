@@ -33,3 +33,18 @@ Here is a table so you can understand better
 | String     | `console.log("quotes make a string")`              |
 | Number     | `console.log(10) // as the name says a number`     |
 | Null       | `let something = null // now something is nothing` |
+
+---
+
+Operators in javascript are:
+
+- Addition
+
+- Subtraction
+
+- Multiplication
+  ** Exponentiation
+  / Division
+  % Modulus (Division Remainder)
+  ++ Increment
+  -- Decrement
