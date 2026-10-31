@@ -38,13 +38,66 @@ Here is a table so you can understand better
 
 Operators in javascript are:
 
-- Addition
+`+` Addition
 
-- Subtraction
+`-` Subtraction
 
-- Multiplication
-  ** Exponentiation
-  / Division
-  % Modulus (Division Remainder)
-  ++ Increment
-  -- Decrement
+`*` Multiplication
+
+`**` Exponentiation
+
+`/` Division
+
+`%` Modulus (Division Remainder)
+
+`++` Increment
+
+`--` Decrement
+
+
+
+
+Here's a quick example:
+```js
+// Arithmetic operators
+console.log(10 + 3);   // 13
+console.log(10 - 3);   // 7
+console.log(10 * 3);   // 30
+console.log(10 ** 3);  // 1000 (exponent)
+console.log(10 / 3);   // 3.3333333333333335
+console.log(10 % 3);   // 1 (remainder)
+
+// Increment: x++ returns the old value, then adds 1
+let x = 5;
+console.log(x++);      // 5
+console.log(x);        // 6
+
+// ++y adds 1 first, then returns the new value
+let y = 5;
+console.log(++y);      // 6
+
+// Decrement: z-- returns the old value, then subtracts 1
+let z = 5;
+console.log(z--);      // 5
+console.log(z);        // 4
+
+// --w subtracts 1 first, then returns the new value
+let w = 5;
+console.log(--w);      // 4
+```
+
+This will be the output:
+```js
+13
+7
+30
+1000
+3.3333333333333335
+1
+5
+6
+6
+5
+4
+4
+```
