@@ -14,7 +14,7 @@ Number, String, Boolean, Undefined and Null. The rest are used less often, but i
 
 ---
 
-Variables: there are actually 3 ways to declare a variable.
+## Variables: there are actually 3 ways to declare a variable
 
 | Keywords to declare a variable                                                                         |
 | ------------------------------------------------------------------------------------------------------ |
@@ -36,7 +36,7 @@ Here is a table so you can understand better
 
 ---
 
-Operators in javascript are:
+# Operators in javascript are
 
 `+` Addition
 
@@ -54,50 +54,59 @@ Operators in javascript are:
 
 `--` Decrement
 
+### Here's a quick example
 
-
-
-Here's a quick example:
 ```js
 // Arithmetic operators
-console.log(10 + 3);   // 13
-console.log(10 - 3);   // 7
-console.log(10 * 3);   // 30
-console.log(10 ** 3);  // 1000 (exponent)
-console.log(10 / 3);   // 3.3333333333333335
-console.log(10 % 3);   // 1 (remainder)
+console.log(10 + 3); // 13
+console.log(10 - 3); // 7
+console.log(10 * 3); // 30
+console.log(10 ** 3); // 1000 (exponent)
+console.log(10 / 3); // 3.3333333333333335
+console.log(10 % 3); // 1 (remainder)
 
 // Increment: x++ returns the old value, then adds 1
 let x = 5;
-console.log(x++);      // 5
-console.log(x);        // 6
+console.log(x++); // 5
+console.log(x); // 6
 
 // ++y adds 1 first, then returns the new value
 let y = 5;
-console.log(++y);      // 6
+console.log(++y); // 6
 
 // Decrement: z-- returns the old value, then subtracts 1
 let z = 5;
-console.log(z--);      // 5
-console.log(z);        // 4
+console.log(z--); // 5
+console.log(z); // 4
 
 // --w subtracts 1 first, then returns the new value
 let w = 5;
-console.log(--w);      // 4
+console.log(--w); // 4
 ```
 
-This will be the output:
+### This will be the output
+
 ```js
-13
-7
-30
-1000
-3.3333333333333335
-1
-5
-6
-6
-5
-4
-4
+13;
+7;
+30;
+1000;
+3.3333333333333335;
+1;
+5;
+6;
+6;
+5;
+4;
+4;
+```
+
+---
+
+# Libraries
+
+_you can install libraries using the node package manager which is `npm` now that you installed a library you want to import it to you're file to import in ES6 you can type this at the top of your file like this:_
+
+```js
+import { functionName } from "library-name";
 ```
