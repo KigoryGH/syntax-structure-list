@@ -110,3 +110,27 @@ _you can install libraries using the node package manager which is `npm` now tha
 ```js
 import { functionName } from "library-name";
 ```
+
+### Here's an example of using a library
+
+_am gonna be using chalk:_
+copy me
+
+i'll first download the library
+
+```bash
+npm install chalk
+```
+
+now i'll make a file `fileName.js` and paste the code bellow to print hello world in blue font color:
+
+````
+
+```js
+import chalk from 'chalk';
+
+console.log(chalk.blue('Hello world!'));
+````
+
+now please go to <https://npmjs.com/packages/chalk>
+and look at the documintation and try to mess around with it so you can get the feel of javascript a little
