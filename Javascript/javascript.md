@@ -124,13 +124,11 @@ npm install chalk
 
 now i'll make a file `fileName.js` and paste the code bellow to print hello world in blue font color:
 
-````
-
 ```js
 import chalk from 'chalk';
 
 console.log(chalk.blue('Hello world!'));
 ````
 
-now please go to <https://npmjs.com/packages/chalk>
-and look at the documintation and try to mess around with it so you can get the feel of javascript a little
+now please go to [chalk](https://npmjs.com/package/chalk)
+and look at the documentation and try to mess around with it so you can get the feel of javascript a little
