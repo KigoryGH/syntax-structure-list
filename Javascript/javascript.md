@@ -26,7 +26,7 @@ note: _you'll never use `var` because it's old and outdated, but you'll be using
 
 ---
 
-Here is a table so you can understand better
+## Data types by example
 
 | Data types | use                                                |
 | ---------- | -------------------------------------------------- |
@@ -36,23 +36,18 @@ Here is a table so you can understand better
 
 ---
 
-# Operators in javascript are
+## Operators
 
-`+` Addition
-
-`-` Subtraction
-
-`*` Multiplication
-
-`**` Exponentiation
-
-`/` Division
-
-`%` Modulus (Division Remainder)
-
-`++` Increment
-
-`--` Decrement
+| Operator | Name                         |
+| -------- | ---------------------------- |
+| `+`      | Addition                     |
+| `-`      | Subtraction                  |
+| `*`      | Multiplication               |
+| `**`     | Exponentiation               |
+| `/`      | Division                     |
+| `%`      | Modulus (division remainder) |
+| `++`     | Increment                    |
+| `--`     | Decrement                    |
 
 ### Here's a quick example
 
@@ -86,26 +81,26 @@ console.log(--w); // 4
 
 ### This will be the output
 
-```js
-13;
-7;
-30;
-1000;
-3.3333333333333335;
-1;
-5;
-6;
-6;
-5;
-4;
-4;
+```text
+13
+7
+30
+1000
+3.3333333333333335
+1
+5
+6
+6
+5
+4
+4
 ```
 
 ---
 
-# Libraries
+## Libraries
 
-_you can install libraries using the node package manager which is `npm` now that you installed a library you want to import it to you're file to import in ES6 you can type this at the top of your file like this:_
+_You can install libraries using the Node package manager, which is `npm`. Once a library is installed, you import it into your file. To import with ES modules, type this at the top of your file:_
 
 ```js
 import { functionName } from "library-name";
@@ -113,22 +108,31 @@ import { functionName } from "library-name";
 
 ### Here's an example of using a library
 
-_am gonna be using chalk:_
-copy me
+I'm going to use `chalk`.
 
-i'll first download the library
+First, set up a project and download the library:
 
 ```bash
+npm init -y
 npm install chalk
 ```
 
-now i'll make a file `fileName.js` and paste the code bellow to print hello world in blue font color:
+Then open the `package.json` file that `npm init` created and add `"type": "module"` to it, so Node understands the `import` syntax.
+
+Now make a file called `fileName.js` and paste the code below to print hello world in blue:
 
 ```js
-import chalk from 'chalk';
+import chalk from "chalk";
 
-console.log(chalk.blue('Hello world!'));
-````
+console.log(chalk.blue("Hello world!"));
+```
 
-now please go to [chalk](https://npmjs.com/package/chalk)
-and look at the documentation and try to mess around with it so you can get the feel of javascript a little
+`chalk` is a default export, which is why there are no curly braces around it.
+
+Run it with:
+
+```bash
+node fileName.js
+```
+
+Now go to <https://www.npmjs.com/package/chalk>, look at the documentation, and try to mess around with it so you can get the feel of JavaScript a little.
