@@ -136,3 +136,29 @@ node fileName.js
 ```
 
 Now go to <https://www.npmjs.com/package/chalk>, look at the documentation, and try to mess around with it so you can get the feel of JavaScript a little.
+
+---
+
+# Statements and Declarations
+
+| control flow | description                                                                                                                       |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| return       | returns a value from the function (basically `yeild` in python)                                                                   |
+| break        | stops the current loop, switch, or label statement and transfers program control to the statement following the stopped statement |
+| if...else    | an `if` statment but with another condition                                                                                       |
+| switch       | Evaluates an expression, matching the expression's value to a case clause, and executes statements associated with that case.     |
+
+There are a lot of those but these are just the most used (personally)
+
+## _Iterations_
+
+now these are ones that are mandatory the ones that you will use 100% in any project.
+
+| iterations       | description                                                                                                                      |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `do...while`     | Runs a statement until the condition is false. The condition is checked after each run, so the statement executes at least once. |
+| `for`            | Loop with three optional expressions in parentheses, separated by semicolons, followed by the statement to run.                  |
+| `for...in`       | Iterates over an object's enumerable properties in arbitrary order, running the statement for each one.                          |
+| `for...of`       | Iterates over iterable objects (arrays, array-like objects, iterators and generators), running the statement for each value.     |
+| `for await...of` | Iterates over async iterable objects, array-like objects, iterators and generators, running the statement for each value.        |
+| `while`          | Runs a statement as long as the condition is true. The condition is checked before each run.                                     |
