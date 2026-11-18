@@ -139,26 +139,63 @@ Now go to <https://www.npmjs.com/package/chalk>, look at the documentation, and 
 
 ---
 
-# Statements and Declarations
+# Statements and declarations
 
-| control flow | description                                                                                                                       |
-| ------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| return       | returns a value from the function (basically `yeild` in python)                                                                   |
-| break        | stops the current loop, switch, or label statement and transfers program control to the statement following the stopped statement |
-| if...else    | an `if` statment but with another condition                                                                                       |
-| switch       | Evaluates an expression, matching the expression's value to a case clause, and executes statements associated with that case.     |
+### Control flow
 
-There are a lot of those but these are just the most used (personally)
+| Control flow | Description                                                                                 |
+| ------------ | ------------------------------------------------------------------------------------------- |
+| `return`     | sends a value back out of a function (same idea as `return` in Python)                      |
+| `break`      | stops the current loop or `switch` and jumps to the code right after it                     |
+| `if...else`  | runs one block of code if a condition is true, and another block if it isn't                |
+| `switch`     | compares a value against a list of `case` options and runs the code of the one that matches |
 
-## _Iterations_
+There are a lot more of those, but these are just the most used ones (personally).
 
-now these are ones that are mandatory the ones that you will use 100% in any project.
+### Iterations
 
-| iterations       | description                                                                                                                      |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| `do...while`     | Runs a statement until the condition is false. The condition is checked after each run, so the statement executes at least once. |
-| `for`            | Loop with three optional expressions in parentheses, separated by semicolons, followed by the statement to run.                  |
-| `for...in`       | Iterates over an object's enumerable properties in arbitrary order, running the statement for each one.                          |
-| `for...of`       | Iterates over iterable objects (arrays, array-like objects, iterators and generators), running the statement for each value.     |
-| `for await...of` | Iterates over async iterable objects, array-like objects, iterators and generators, running the statement for each value.        |
-| `while`          | Runs a statement as long as the condition is true. The condition is checked before each run.                                     |
+Now these are the loops you'll see in almost every project.
+
+| Iterations       | Description                                                                                                                  |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `do...while`     | runs the code, then checks the condition and repeats while it's true, so it always runs at least once                        |
+| `for`            | the classic loop: three optional parts in parentheses separated by semicolons (setup, condition, step), then the code to run |
+| `for...in`       | loops over the keys (property names) of an object, in no guaranteed order                                                    |
+| `for...of`       | loops over the values of something iterable, like an array or a string                                                       |
+| `for await...of` | like `for...of` but for async iterables (rare, you won't need it until you learn async code)                                 |
+| `while`          | checks the condition first and keeps running the code as long as it's true                                                   |
+
+---
+
+Now if you're a little experienced you should be able to read these tables and understand everything you need, but if you want something more in-depth you can visit this great documentation:
+developer.mozilla.org/docs/Web/JavaScript/Reference/Statements
+
+### (_I heavily recommend contributors add more to this because I'm just too lazy to do that_)
+
+---
+
+# Arrays
+
+Here is how array structure works in javaScript `const <arrayName> = [object1, object2, object3, object4]`
+
+To declare an array you use the `const` keyword and then make a name for you're array after that use type
+in you're objects into these brackets `[]`
+
+---
+
+Here is an example:
+
+```js
+const myArray = [1, 2, 3, 4]; // This is an array that has the Numbers from 1-4
+
+/* Arrays are zero indexed so the code below will log(print) the index "0" to the console.
+  in this case the index "0" is "1"
+  */
+console.log(myArray[0]);
+```
+
+output:
+
+```
+1
+```
