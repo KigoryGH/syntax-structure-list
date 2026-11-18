@@ -139,7 +139,7 @@ Now go to <https://www.npmjs.com/package/chalk>, look at the documentation, and 
 
 ---
 
-# Statements and declarations
+## Statements and declarations
 
 ### Control flow
 
@@ -168,34 +168,34 @@ Now these are the loops you'll see in almost every project.
 ---
 
 Now if you're a little experienced you should be able to read these tables and understand everything you need, but if you want something more in-depth you can visit this great documentation:
-developer.mozilla.org/docs/Web/JavaScript/Reference/Statements
+<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements>
 
-### (_I heavily recommend contributors add more to this because I'm just too lazy to do that_)
-
----
-
-# Arrays
-
-Here is how array structure works in javaScript `const <arrayName> = [object1, object2, object3, object4]`
-
-To declare an array you use the `const` keyword and then make a name for you're array after that use type
-in you're objects into these brackets `[]`
+_(I heavily recommend contributors add more to this because I'm just too lazy to do that)_
 
 ---
+
+## Arrays
+
+Here is how an array is structured in JavaScript:
+
+```js
+const arrayName = [value1, value2, value3, value4];
+```
+
+To make an array you usually use `const`, then pick a name for your array, and type your values between the brackets `[]`, separated by commas.
 
 Here is an example:
 
 ```js
-const myArray = [1, 2, 3, 4]; // This is an array that has the Numbers from 1-4
+const myArray = [1, 2, 3, 4]; // This is an array with the numbers from 1 to 4
 
-/* Arrays are zero indexed so the code below will log(print) the index "0" to the console.
-  in this case the index "0" is "1"
-  */
+// Arrays are zero-indexed, so index 0 is the first item.
+// Here index 0 holds the value 1
 console.log(myArray[0]);
 ```
 
-output:
+Output:
 
-```
+```text
 1
 ```
