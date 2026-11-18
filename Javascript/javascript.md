@@ -194,6 +194,12 @@ const myArray = [1, 2, 3, 4]; // This is an array with the numbers from 1 to 4
 console.log(myArray[0]);
 ```
 
+Here's a little image I had Gemini make me:
+
+<img width="700" height="350" alt="image" src="https://github.com/user-attachments/assets/f2885571-0ce6-4fd6-8e91-cb2aa0f9b189" />
+
+---
+
 Output:
 
 ```text
