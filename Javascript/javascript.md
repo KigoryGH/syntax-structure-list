@@ -196,7 +196,7 @@ console.log(myArray[0]);
 
 Here's a little image I had Gemini make me:
 
-<img width="700" height="350" alt="image" src="https://github.com/user-attachments/assets/f2885571-0ce6-4fd6-8e91-cb2aa0f9b189" />
+<img width="700" height="350" alt="image" src="github.com/KigoryGH/syntax-structure-list/main/jsArrays.jpg" />
 
 ---
 
